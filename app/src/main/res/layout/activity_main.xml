@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laptop.quizy.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Que1: Name National Bird Of India?  "
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+            />
+
+        <EditText
+            android:id="@+id/que1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Que2: Name National Game Of India?  "
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+            />
+
+        <EditText
+            android:id="@+id/que2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Que3: if Radius of Circle is 2cm,What is area of Circle?  "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/RG1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/que3_Radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.56cm"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/que3_Radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16.52cm"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/que3_Radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.52m"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/que3_Radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15cm"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Que4: Which of Following animal are native to Australia?  "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/ques4_check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kangroo"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/ques4_check2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rabit"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/ques4_check3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dogs"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Que5: Which city is called Pink city?  "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/que5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Que6: Which of the following is a part of Cartoon Series?  "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/doremon"
+
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_marginLeft="50dp"
+
+                android:src="@drawable/naruto" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+
+
+                android:src="@drawable/tom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/ques6_check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doremon"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/ques6_check2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naruto"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/ques6_check3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tom "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="SubmitResult"
+            android:text="Submit"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>
